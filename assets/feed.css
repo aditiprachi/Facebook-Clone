@@ -1,0 +1,324 @@
+html , body {
+  background: #edeef0;
+  width: 100%;
+  margin: 0px;
+  overflow-x: hidden;
+}
+.icon img{
+  width: 45px;
+  height: auto;
+}
+.icon i{
+  font-size: 35px;
+}
+#home {
+  margin-left: 12em;
+}
+.cen{
+  margin-right: 4em;
+}
+.peoplebtn{
+  width: 80%;
+  margin: 10%;
+}
+.element i{
+  float: left;
+  padding-left: 0.1em;
+  padding-right: 0.3em;
+}
+
+nav i{
+  font-size: 30px;
+}
+nav li{
+  width: 100px;
+  text-align: center;
+}
+.active{
+  border-bottom: 2px solid blue;
+}
+ a:hover{
+  border-radius: 10px;
+  background-color: #e0e0e0;
+}
+a {
+  text-decoration: none!important;
+}
+.verticle1, .verticle2 {
+  position: fixed;
+  padding-top: 6em;
+  overflow-y: auto;
+  top: 0;
+  bottom: 0;
+  text-align: left!important;
+}
+
+.verticle2{
+  right: 0px;
+  width: 320px;
+  display: block;
+}
+.right{
+  display: block;
+  background: #edeef0;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 0 0.6em;
+  padding: 0.4em;
+}
+.right a i{
+  color: black;
+  font-size: 1.2em;
+}
+
+.verticle1 a{
+  color: black;
+}
+.element{
+  margin: 0.2em 0.5em;
+  line-height: 2em;
+}
+.element a:hover{
+  width: 100%;
+  background: #e0e0e0;
+  border-radius: 10px;
+}
+.main{
+  padding-top: 6em;
+}
+.white{
+  background-color: white;
+  border-radius: 10px;
+  margin: 1.2em 0;
+}
+.search1{
+  width: 250px;
+  height: 45px;
+}
+.search2{
+  height: 45px;
+  border-radius: 22px;
+}
+.col-12{
+  padding: 0!important;
+}
+.post{
+  background-color: white;
+  margin: 1.2em 0;
+  border-radius: 10px;
+}
+.caption{
+  margin-top: 0.5em;
+}
+.card-text{
+  margin-left: 0.5em;
+}
+.name{
+  padding-top: 9em;
+  color: #fff;
+  font-weight: bold;
+}
+.story1{
+  background-image: url("pic3.webp");
+  width: 100%;
+  height: 230px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0.5em 0.5em 0.5em 0;
+  border-radius: 10px;
+}
+.story2{
+  background-image: url("pic4.webp");
+  width: 100%;
+  height: 230px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0.5em;
+  border-radius: 10px;
+}
+.story3{
+  background-image: url("pic5.webp");
+  width: 100%;
+  height: 230px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0.5em;
+  border-radius: 10px;
+}
+.story4{
+  background-image: url("pic6.webp");
+  width: 100%;
+  height: 230px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0.5em;
+  border-radius: 10px;
+}
+.story5{
+  background-image: url("pic7.webp");
+  width: 100%;
+  height: 230px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0.5em 0 0.5em 0.5em;
+  border-radius: 10px;
+}
+.search {
+  padding: 1em 1em 0 1em ;
+}
+.search .form-control{
+  height: 2.8em!important;
+  border-radius: 20px!important;
+}
+hr {
+  margin: 1em;
+}
+.live {
+  font-size: 1.1em;
+  color: grey;
+  text-align: center;
+  font-weight: bold;
+}
+
+.dp{
+  width: 45px;
+  height: 45px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: 2px solid blue;
+
+}
+
+.dpon{
+  width: 45px;
+  height: 45px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+
+.like li{
+  padding: 0.5em 2em;
+  float: left;
+  list-style: none;
+}
+.card img{
+  width: 100%;
+  height: auto;
+}
+.first{
+  padding: 0.1em 1em!important;
+}
+.room {
+  font-weight: bold;
+}
+.second{
+  padding: 1em!important;
+}
+.comments{
+  color: grey;
+  text-align: center;
+  font-weight: bold;
+  padding: 0 1em!important;
+}
+.third{
+  text-align: center;
+  color: grey;
+  padding: 0 1em;
+}
+.card-body hr{
+  margin: 0 1em!important;
+}
+.col-6{
+  padding: 0 3em!important;
+}
+.people{
+  color: grey;
+  font-size: 1.1em;
+  font-weight: bold;
+  padding:  1em!important;
+}
+.fourth{
+  padding-bottom: 2em;
+}
+.card-text{
+  padding: 0.2em;
+}
+@media screen and (max-width: 1610px) {
+  #home{
+    margin-left: 8em;
+  }
+  .cen{
+    margin-right: 2.2em;
+  }
+}
+@media screen and (max-width: 1490px) {
+  #home{
+    margin-left: 6em;
+  }
+  .cen{
+    margin-right: 1.5em;
+  }
+}
+@media screen and (max-width: 1410px) {
+  #home{
+    margin-left: 2em;
+  }
+  .cen{
+    margin-right: 1em;
+  }
+}
+@media screen and (max-width: 1365px) {
+  .verticle2 {
+    padding-left: 2em;
+  }
+  .right{
+    width: 40px;
+    height: 40px;
+    margin: 0 0.4em;
+    padding: 0.2em;
+  }
+  .right a i{
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 1201px) {
+  .verticle1, .verticle2 {
+    display: none;
+  }
+  .row{
+    margin-right: 5em;
+    margin-left: 5em;
+  }
+  .main{
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+  .new .row{
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+}
+
+  .row{
+    margin-right: 2em;
+    margin-left: 2em;
+  }
+  .main{
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  .right{
+    margin-left: 2em;
+  }
+
+}
+@media screen and (max-width: 1201px) {
+  .search .form-control {
+    height: 2em!important;
+  }
+}

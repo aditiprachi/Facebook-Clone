@@ -1,0 +1,123 @@
+html, body {
+  background: #edeef0;
+  width: 100%;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+.join{
+  color: white;
+  text-decoration: none;
+  padding-left:80em;
+  padding-top: 30px;
+  font-size: 14px;
+}
+
+.header{
+  width: 100%;
+  height: 85px;
+  background-color: #455e99;
+}
+
+.start{
+  width:85em;
+  margin:0px auto;
+}
+
+.start li {
+  list-style-type:none;
+  float:left;
+  text-align:left;
+  color:white;
+}
+.start li button{
+  margin-top: 33px;
+}
+
+.first p{
+  width: 100%;
+}
+
+.fb{
+  margin-top:18px;
+  width: 200px;
+}
+
+.fb a{
+  color:white;
+  text-decoration:none;
+  font-size:42px;
+  font-weight:900;
+}
+.card{
+  margin-top: 50px;
+  text-align: center!important;
+  margin-bottom: 100px;
+}
+.btn1{
+  background: linear-gradient(#67ad55, #578643);
+  background-color: #69a64e;
+  color: #fff;
+  cursor: pointer;
+}
+.btn2{
+  background-color: #f2f5f3;
+  border: 1px solid grey;
+}
+
+.first {
+  margin: 0.5em 15em;
+}
+.second {
+  margin: 0.5em 14em;
+}
+.first{
+  margin-top: 30px;
+}
+
+ img{
+   width: 200px;
+   height: 200px;;
+   margin: 20px auto;
+ }
+.col-6{
+  padding-left: 0!important;
+}
+
+.getstrbtn{
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1607px) {
+  .start{
+    padding: 0 2em;
+    width: 71em;
+  }
+  .join{
+    padding-left: 58em;
+  }
+  .first{
+    padding: 0 2em;
+  }
+  .card{
+    margin-right:2em!important;
+    margin-left: 2em!important;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .start{
+    padding: 0 2em;
+    width: 100%;
+  }
+  .first{
+    margin: auto;
+    width: 100%;
+  }
+  .join{
+    padding-left: 30em;
+    padding-top:38px;
+  }
+  .first , .second {
+    margin: 0.5em 2em;
+  }
+}

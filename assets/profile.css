@@ -1,0 +1,385 @@
+html , body {
+  background: #edeef0;
+  width: 100%;
+  margin: 0px;
+  overflow-x: hidden;
+}
+.icon img{
+  width: 45px;
+  height: auto;
+}
+.icon i{
+  font-size: 35px;
+}
+nav i{
+  font-size: 30px;
+}
+nav li{
+  width: 100px;
+  text-align: center;
+}
+.active{
+  border-bottom: 2px solid blue;
+}
+.right{
+  display: block;
+  background: #edeef0;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 0 0.6em;
+  padding: 0.4em;
+}
+.right a i{
+  color: black;
+  font-size: 1.2em;
+}
+ a:hover{
+  border-radius: 10px;
+  background-color: #e0e0e0;
+}
+a {
+  text-decoration: none!important;
+}
+#home {
+  margin-left: 12em;
+}
+.cen{
+  margin-right: 4em;
+}
+.first{
+  padding: 4em 22em 0 22em;
+}
+.cover{
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.dp{
+  width: 220px;
+  height: 220px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  position: absolute;
+  top: 34%;
+  left: 21%;
+}
+.search1{
+  width: 300px;
+}
+.first span{
+  float: left;
+  position: absolute;
+  color: #fff;
+  top: 48%;
+  left: 34%;
+  font-size: 2em;
+  font-weight: 600;
+}
+.nav1{
+  padding-left: 4.5em;
+  background: white;
+  color: grey;
+  font-size: 1.2em;
+  line-height: 2em;
+}
+.second, .third{
+  margin: 1em 22em;
+}
+.white{
+  background: white;
+}
+.live {
+  color: grey;
+  text-align: center;
+}
+hr{
+  margin: 0.2em 0.8em;
+}
+.pp{
+  width: 60px;
+  height: 60px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-radius: 50%;
+}
+.intro{
+  padding-top: 0.5em;
+}
+.card img{
+  width: 100%;
+  height: auto;
+}
+.card-text{
+  padding: 0.2em;
+}
+.card-body hr{
+  margin: 0 1em!important;
+}
+.third .col-7{
+  padding: 0!important;
+}
+.text{
+  padding: 0.8em;
+}
+.what {
+  height: 145px;
+}
+.what span{
+  position: absolute;
+  top: 57%;
+  left: 15%;
+  font-size: 1.5em;
+}
+.gallery img{
+  width: 32%;
+  height: 100px;
+  margin-bottom: 0.3em;
+}
+.photo {
+  height: 400px;
+  margin-top: 1.5em;
+}
+.name{
+  width: 100%;
+  font-size:1.1em;
+  font-weight: 500;
+  padding-left: 0.5em;
+}
+.share{
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.foot{
+  position: absolute;
+  top: -30%;
+  left: -12%
+}
+.foot li{
+  list-style-type: none;
+  float: left;
+  font-size: 13px;
+  padding: 0.2em;
+}
+.card{
+  border: none!important;
+}
+
+@media screen and (max-width: 1610px) {
+  .first{
+    padding: 4em 16em 0 16em;
+  }
+  .second, .third{
+    margin: 1em 16em;
+  }
+  .dp{
+    width: 190px;
+    height: 190px;
+    top: 34%;
+    left: 19%;
+  }
+  .first span{
+    top: 45%;
+    left: 34%;
+    font-size: 1.8em;
+  }
+  .foot{
+    position: absolute;
+    top: -25%;
+    left: -12%;
+  }
+  #home{
+    margin-left: 6em;
+  }
+  .cen{
+    margin-right: 2.2em;
+  }
+
+}
+@media screen and (max-width: 1544px) {
+  .first{
+    padding: 4em 12em 0 12em;
+  }
+  .second, .third{
+    margin: 1em 12em;
+  }
+  .dp{
+    width: 170px;
+    height: 170px;
+    top: 39%;
+    left: 15%;
+  }
+  .first span{
+    top: 48%;
+    left: 30%;
+    font-size: 1.8em;
+  }
+  #home {
+    margin-left: 4em;
+  }
+  .cen{
+    margin-right: 1em;
+  }
+}
+@media screen and (max-width: 1490px) {
+  .first{
+    padding: 4em 11em 0 11em;
+  }
+  .second, .third{
+    margin: 1em 11em;
+  }
+  .dp{
+    top: 38%;
+  }
+  .first span{
+    top: 46%;
+    left: 30%;
+    font-size: 1.6em;
+  }
+
+}
+@media screen and (max-width: 1400px) {
+  .first{
+    padding: 4em 9em 0 9em;
+  }
+  .second, .third{
+    margin: 1em 9em;
+  }
+  .dp{
+    top: 36%;
+    left:14%;
+  }
+  .first span{
+    top: 45%;
+    left: 30%;
+  }
+  #home {
+    margin-left: 2em;
+  }
+  .cen{
+    margin-right: 0.7em;
+  }
+  .search1{
+    width: 280px;
+  }
+}
+@media screen and (max-width: 1310px) {
+  .first{
+    padding: 4em 8em 0 8em;
+  }
+  .second, .third{
+    margin: 1em 8em;
+  }
+  .dp{
+    top: 34%;
+  }
+  .first span{
+    top: 42%;
+    left: 30%;
+  }
+  .what{
+    height: 150px;
+  }
+  .what span{
+    top: 57%;
+    left:15%;
+    font-size: 1.4em;
+  }
+  .live{
+    font-size: 1em!important;
+  }
+  #home {
+    margin-left: 1em;
+  }
+  .cen{
+    margin-right: 0.2em;
+  }
+  .search1{
+    width: 220px;
+  }
+}
+@media screen and (max-width: 1210px) {
+  .first{
+    padding: 4em 6em 0 6em;
+  }
+  .second, .third{
+    margin: 1em 6em;
+  }
+  .dp{
+    top: 33%;
+    left: 12%;
+  }
+  .right{
+    margin-left: 2em;
+  }
+
+}
+@media screen and (max-width: 1140px) {
+  .first{
+    padding: 4em 0 0 0 ;
+  }
+  .second, .third{
+    margin: 1em 0;
+  }
+  .dp{
+    width: 180px;
+    height: 180px;
+    top: 37%;
+    left: 4%;
+  }
+  .first span{
+    font-size: 1.6em;
+    top: 48%;
+    left: 26%;
+  }
+}
+@media screen and (max-width: 1096px) {
+  .dp{
+    width: 170px;
+    height: 170px;
+  }
+  .first span{
+    font-size: 1.6em;
+    top: 43%;
+    left: 24%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .dp{
+    width: 160px;
+    height: 160px;
+    top: 32%;
+    left: 4%;
+  }
+  .first span{
+    top: 40%;
+  }
+  .col-12{
+    margin-bottom: 1.5em;
+  }
+}
+@media screen and (max-width: 900px) {
+  .dp{
+    top: 30%;
+    left: 4%;
+  }
+  .first span{
+    top: 35%;
+  }
+  .nav1{
+    padding-left: 6em;
+  }
+}
+@media screen and (max-width: 845px) {
+  .dp{
+    top: 26%;
+  }
+  .first span{
+    top: 34%;
+    left: 27%;
+    font-size: 1.4em;
+  }
+  .nav1{
+    padding-left: 8em;
+  }
+}
